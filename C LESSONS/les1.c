@@ -1,22 +1,23 @@
 #include <stdio.h>
 
 int main() {
+    // 숫자 변수 만듬
+    int num1 = 100;
+    int num2 = 200;
 
-    int a = 100;
-    int b = 200;
-    int c = a + b;
-    printf("\n%d + %d = %d",a,b,c);
+    // 더하기
+    int c = num1 + num2;
+    printf("\n%d + %d = %d",num1,num2,c);
     
-    int a1 = 5;
-    int b1 = 2;
-    int c1 = a1 * b1;
-    printf("\n%d * %d = %d",a1,b1,c1);    
+    // 곺셈
+    int c1 = num1 * num2;
+    printf("\n%d * %d = %d",num1,num2,c1);    
     
-    int a2 = 100;
-    int b2 = 2;
-    int c2 = a2 / b2;
-    printf("\n%d / %d = %d",a2,b2,c2);
+    // 나누기
+    int c2 = num1 / num2;
+    printf("\n%d / %d = %d",num1,num2,c2);
 
+    // 실수 값
     double a3 = 100.2;
     double b3 = 100.5;
     double c3 = a3+b3;
