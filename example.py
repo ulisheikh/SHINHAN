@@ -5,3 +5,4 @@ try:
     print(f"{a} + {b} = {natija}")  
 except ValueError:
     print("Iltimos, faqat son kiriting!")  
+
